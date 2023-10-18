@@ -1,3 +1,5 @@
+import './Relogio.css';
+
 function mostraHora(){
   let data = new Date();
   let hora = data.getHours();
