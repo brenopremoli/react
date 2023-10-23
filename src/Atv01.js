@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Relogio from './Relogio';
-import Letreiro from './Letreiro';
+import Relogio from './Componentes/Relogio';
+import Letreiro from './Componentes/Letreiro';
 
 function Atv01() {
     return (
