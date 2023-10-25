@@ -1,17 +1,38 @@
-img {
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    text-align: center; 
+  }
+  
+  .contador, .counter {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top; 
+  }
+  
+  .total {
+    display: block;
+    margin-top: 0px; 
+    text-align: center; 
+  }
+  
+  img {
     width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-button > img {
+  }
+  
+  button > img {
     width: 50px;
-}
-
-button {
+  }
+  
+  button {
     margin-top: 10px;
-    border: none; 
+    border: none;
     cursor: pointer;
     background-color: white;
-}
+  }
+  
