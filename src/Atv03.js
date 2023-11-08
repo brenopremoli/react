@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import App from './Componentes/App.js';
-import Todo from './Componentes/Todo.js';
-import Profile from './Componentes/Props.js';
-import PackingList from "./Componentes/PackingList.js";
-import List from "./Componentes/List.js";
-import TeaSet from "./Componentes/Guest.js";
+import App from './Componentes/semana3/App.js';
+import Todo from './Componentes/semana3/Todo.js';
+import Profile from './Componentes/semana3/Props.js';
+import PackingList from "./Componentes/semana3/PackingList.js";
+import List from "./Componentes/semana3/List.js";
+import TeaSet from "./Componentes/semana3/Guest.js";
 
 function Atv03() {
     return (

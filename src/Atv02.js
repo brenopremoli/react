@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Contador from './Componentes/Contador';
+import Contador from './Componentes/semana2/Contador';
 
 function Atv02() {
     return (
