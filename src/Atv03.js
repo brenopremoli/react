@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import App from './Componentes/App.js';
 import Todo from './Componentes/Todo.js';
 import Profile from './Componentes/Props.js';
+<<<<<<< Updated upstream
+=======
+import PackingList from "./Componentes/PackingList.js";
+>>>>>>> Stashed changes
 
 
 function Atv03() {
@@ -17,7 +21,11 @@ function Atv03() {
             <hr></hr>
             <Profile />
             <hr></hr>
+<<<<<<< Updated upstream
             
+=======
+            <PackingList />
+>>>>>>> Stashed changes
             <hr></hr>
             <Link to="/">Voltar</Link>
         </>
