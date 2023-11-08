@@ -17,6 +17,7 @@ function Atv03() {
             <hr></hr>
             <Profile />
             <hr></hr>
+            <PackingList />
             <hr></hr>
             <Link to="/">Voltar</Link>
         </>
