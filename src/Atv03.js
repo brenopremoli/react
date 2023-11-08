@@ -2,7 +2,9 @@ import { Link } from "react-router-dom";
 import App from './Componentes/App.js';
 import Todo from './Componentes/Todo.js';
 import Profile from './Componentes/Props.js';
-
+import PackingList from "./Componentes/PackingList.js";
+import List from "./Componentes/List.js";
+import TeaSet from "./Componentes/Guest.js";
 
 function Atv03() {
     return (
@@ -17,7 +19,11 @@ function Atv03() {
             <hr></hr>
             <Profile />
             <hr></hr>
-            
+            <PackingList />
+            <hr></hr>
+            <List />
+            <hr></hr>
+            <TeaSet />
             <hr></hr>
             <Link to="/">Voltar</Link>
         </>
