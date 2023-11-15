@@ -1,12 +1,8 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .container {
+   .container {
     text-align: center; 
   }
   
-  .contador, .counter {
+  .contador {
     display: inline-block;
     margin: 10px;
     vertical-align: top; 
@@ -18,18 +14,18 @@
     text-align: center; 
   }
   
-  img {
+  .img {
     width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  button > img {
+  .button > .img {
     width: 50px;
   }
   
-  button {
+  .button {
     margin-top: 10px;
     border: none;
     cursor: pointer;

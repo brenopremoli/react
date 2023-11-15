@@ -65,45 +65,45 @@ export default function MyApp() {
     <div className="container">
       <h2>Homens ㅤㅤㅤㅤ Mulheres</h2>
       <div className="contador">
-        <img src={male} alt={'Foto homem'} />
+        <img class="img" src={male} alt={'Foto homem'} />
         <MyButtonMais count={countMaisH} onClick={handleClickMaisH} />
         <MyButtonTotal count={countH} onClick={contador} />
         <MyButtonMenos count={countMenosH} onClick={handleClickMenosH} />
       </div>
-      <div className="counter">
-        <img src={female} alt={'Foto mulher'} />
+      <div className="contador">
+        <img class="img" src={female} alt={'Foto mulher'} />
         <MyButtonMais count={countMaisM} onClick={handleClickMaisM} />
         <MyButtonTotal count={countM} onClick={contador} />
         <MyButtonMenos count={countMenosM} onClick={handleClickMenosM} />
       </div>
       <div className="total">
         <h2> <MyButtonTotal count={countT} onClick={contador} /></h2>
-        <button onClick={handleZerar}><img src={zera}></img></button>
+        <button class="button" onClick={handleZerar}><img class="img" src={zera}></img></button>
       </div>
     </div>
   );
 }
 
-function MyButtonMais({ count, onClick }) {
+function MyButtonMais({ onClick }) {
   return (
-    <button>
-      <img src={mais} alt="adição" onClick={onClick} /><h2></h2>
+    <button class="button">
+      <img class="img" src={mais} alt="adição" onClick={onClick} /><h2></h2>
     </button>
   );
 }
 
-function MyButtonMenos({ count, onClick }) {
+function MyButtonMenos({ onClick }) {
   return (
-    <button>
-      <img src={menos} alt="subtração" onClick={onClick} /><h2></h2>
+    <button class="button">
+      <img class="img" src={menos} alt="subtração" onClick={onClick} /><h2></h2>
     </button>
   );
 }
 
 function MyButtonTotal({ count, onClick }) {
   return (
-    <button>
-      <img src={total} alt="subtração" onClick={onClick} /><h2>{count}</h2>
+    <button class="button">
+      <img class="img" src={total} alt="subtração" onClick={onClick} /><h2>{count}</h2>
     </button>
   );
 }
