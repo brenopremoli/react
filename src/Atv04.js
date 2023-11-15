@@ -7,7 +7,6 @@ function Atv04() {
             <h1>Semana 04</h1>
             <hr></hr>
             <h2>Atividade 1</h2>
-            <hr></hr>
             <Calculadora />
             <hr></hr>
             <Link to="/">Voltar</Link>
