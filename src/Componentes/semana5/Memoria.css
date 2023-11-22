@@ -1,0 +1,49 @@
+.jogo-da-memoria {
+    display: grid;
+    grid-template-columns: repeat(4, 100px); 
+    gap: 10px;
+    max-width: 400px; 
+    margin: 0 auto;
+  }
+  
+  .carta {
+    width: 100px;
+    height: 150px; 
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px; 
+    font-weight: bold;
+    background-color: #fff;
+    user-select: none;
+  }
+  
+  .carta img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .carta.virada {
+    background-color: #f0f0f0;
+  }
+  
+  .carta.correspondente {
+    background-color: #8aff8a;
+  }
+  
+  @keyframes virar {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .carta.virada img {
+    animation: virar 0.5s ease;
+  }
+  
+  
